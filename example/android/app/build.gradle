@@ -15,6 +15,7 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    namespace 'fr.g123k.deviceappsexample'  // 设置为你的应用包名
     compileSdkVersion 32
 
     lintOptions {
